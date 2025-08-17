@@ -24,9 +24,10 @@ export default function Layout({ children }: LayoutProps) {
               <Link href="/contact">Contact</Link>
             </li>
             <li>
-<Link href="/led-control/" target="_blank" rel="noopener noreferrer">
-  LED Control
-</Link>
+          <a href="/pages/led-control/index.html" target="_blank" rel="noopener noreferrer">
+            LED Control
+          </a>
+
             </li>
           </ul>
         </div>
