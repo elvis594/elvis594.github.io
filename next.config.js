@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const isProd = process.env.NODE_ENV === 'production'
-const repo = 'pages' // ← 改成真实的仓库名；如果是 username.github.io 根仓库，就置空 ''
+const repo = '' // ← 改成真实的仓库名；如果是 username.github.io 根仓库，就置空 ''
 
 module.exports = {
   output: 'export',
